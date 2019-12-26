@@ -22,7 +22,7 @@ public class TestRegistration {
 	
 	// Test for registering single manually entered user
 	
-	public void Test1OneUser() { 
+	public static void Test1OneUser() { 
 		SoftAssert sa = new SoftAssert();
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\DELL\\testiranje\\Qa Selenium\\src\\chromedriver2.exe");
@@ -96,7 +96,7 @@ public class TestRegistration {
 	
 	// Test for registering users read from Excell table
 	
-	public void Test2ExcelUsers() {
+	public static void Test2ExcelUsers() {
 		SoftAssert sa = new SoftAssert();
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\DELL\\testiranje\\Qa Selenium\\src\\chromedriver2.exe");
@@ -207,7 +207,7 @@ public class TestRegistration {
 	@Test
 	
 	// Test for loging users read from Excell table
-	public void Test3LogIn() {
+	public static void Test3LogIn() {
 		SoftAssert sa = new SoftAssert();
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\DELL\\testiranje\\Qa Selenium\\src\\chromedriver2.exe");
@@ -257,7 +257,7 @@ public class TestRegistration {
 	
 	// Test for registering single randomly generated user
 	
-	public void Test4RandomUser() { 
+	public static void Test4RandomUser() { 
 		SoftAssert sa = new SoftAssert();
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\DELL\\testiranje\\Qa Selenium\\src\\chromedriver2.exe");

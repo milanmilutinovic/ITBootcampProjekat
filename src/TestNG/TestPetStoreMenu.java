@@ -12,7 +12,7 @@ public class TestPetStoreMenu {
 
 
 	@Test
-	public void Test1Left() {
+	public static void Test1Left() {
 		SoftAssert sa = new SoftAssert();
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\DELL\\testiranje\\Qa Selenium\\src\\chromedriver2.exe");
@@ -65,7 +65,7 @@ public class TestPetStoreMenu {
 	}
 
 	@Test
-	public void Test2Top() {
+	public static void Test2Top() {
 		SoftAssert sa = new SoftAssert();
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\DELL\\testiranje\\Qa Selenium\\src\\chromedriver2.exe");
@@ -119,7 +119,7 @@ public class TestPetStoreMenu {
 	}
 
 	@Test
-	public void Test3Mid() {
+	public static void Test3Mid() {
 		SoftAssert sa = new SoftAssert();
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\DELL\\testiranje\\Qa Selenium\\src\\chromedriver2.exe");
@@ -181,7 +181,7 @@ public class TestPetStoreMenu {
 	}
 
 	@Test
-	public void Test4SingIn() {
+	public static void Test4SingIn() {
 		SoftAssert sa = new SoftAssert();
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\DELL\\testiranje\\Qa Selenium\\src\\chromedriver2.exe");

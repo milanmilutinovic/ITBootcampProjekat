@@ -14,7 +14,7 @@ public class TestHomePage {
 		
 		
 	  @Test
-	  public void testEnter() {
+	  public static void testEnter() {
 		  
 		  System.setProperty("webdriver.chrome.driver",
 					"C:\\Users\\DELL\\testiranje\\Qa Selenium\\src\\chromedriver2.exe");
@@ -36,6 +36,6 @@ public class TestHomePage {
 			
 			sa.assertAll();
 		  
-		  
+			driver.close();
 	  }
 }

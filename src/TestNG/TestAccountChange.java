@@ -19,7 +19,7 @@ import utility.ExcelUtils;
 public class TestAccountChange {
 	
 	@Test
-	public void Test1Change() {
+	public static void Test1Change() {
 		SoftAssert sa = new SoftAssert();
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\DELL\\testiranje\\Qa Selenium\\src\\chromedriver2.exe");
